@@ -1,0 +1,14 @@
+repositories:
+  default:
+    features:
+      has_issues: true
+      has_wiki: false
+      has_projects: false
+      has_downloads: false
+    merges:
+      allow_squash_merge: true
+      allow_merge_commit: false
+      allow_rebase_merge: true
+    dependency_security:
+      alerts: true
+      automatic_fixes: true
